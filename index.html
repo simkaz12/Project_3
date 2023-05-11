@@ -14,16 +14,57 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <style>
+        body {
+            margin: 0;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
         header, main, footer {
             width: 800px;
+            float: left;
             margin-left: calc(50% - 400px);
-            background-color: pink;
+            margin-bottom: 60px;
         }
+        header {
+            margin-top: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+        
+        img {
+            
+        }
+        nav {
+            gap: 15px;
+            display: flex;
+            
+        }
+        a {
+            color: black;
+            font-size: 19px;
+            text-decoration: none;
+        }
+        a:hover {
+            background-color: grey;
+            text-decoration: underline;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        main>img {
+            width: 50%;
+        }
+        footer {
+            margin-bottom: 15px;
+        }
+
     </style>
 </head>
 <body>
     <header>
-        <img src="#" alt="Logo">
+        <img src="./logo .png" alt="Logo">
         <nav>
             <a href="#">Home</a>
             <a href="#">Instructors</a>
@@ -33,7 +74,10 @@
         </nav>
     </header>
     <main>
-        MAIN CONTENT
+        <div>
+            TEXT
+        </div>
+        <img src="./Girl.png" alt="Girl">
     </main>
     <footer>
         FOOTER CONTENT
