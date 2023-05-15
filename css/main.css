@@ -7,11 +7,12 @@ body {
     float: left;
     margin-left: calc(50% - 400px);
     margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
 }
 main-header {
     margin-top: 8px;
-    display: flex;
-    justify-content: space-between;
+    
     align-items: flex-end;
 }
 
@@ -33,21 +34,31 @@ main-header {
     text-decoration: underline;
 }
 main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   
 }
 .left-column {
-
+    width: 40%;
 }
 .main-title {
-
+    font-weight: normal;
+    font-size: 36px;
+}
+.orange {
+    color: rgb(255, 70, 34);
 }
 .description {
 
 }
 .btn {
-    
+    background-color: rgb(255, 70, 34);
+    display: inline-block;
+    color: white;
+    line-height: 20px;
+    padding: 18px 35px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+
 }
 .right-column {
     width: 50%;
