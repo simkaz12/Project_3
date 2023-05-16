@@ -22,16 +22,22 @@ main-header {
 .main-nav {
     gap: 15px;
     display: flex;
+    padding-top: 20px;
+    
     
 }
 .menu-link {
     color: black;
     font-size: 19px;
     text-decoration: none;
+    border-bottom: 3px solid transparent;
 }
 .menu-link:hover {
-    background-color: grey;
-    text-decoration: underline;
+    
+    border-bottom-color: #ff4622;
+}
+.active {
+    border-bottom-color:#ff4622;
 }
 main {
    
